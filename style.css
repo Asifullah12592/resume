@@ -1,0 +1,139 @@
+.container {
+    width: 550px;
+    padding: 10px;
+    height: fit-content;
+    margin: auto;
+    padding: 0;
+    border: 5px solid rgb(7, 7, 7);
+    /* border-radius: 10px; */
+    box-shadow: 2px 2px 5px rgb(139, 139, 139);
+}
+
+;
+@media only screen and (max-width: 300px) {
+    .container {
+        background-color: lightblue;
+        border: 5px solid rgb(250, 3, 3);
+    }
+}
+
+.topBar {
+    display: flex;
+    align-items: center;
+    background-color: #17415e;
+    color: white;
+    padding: 10px;
+
+
+
+}
+
+.img {
+    width: 32%;
+    margin-left: 0;
+}
+
+.img img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.information {
+    width: 68%;
+    border-left: 2px solid white;
+    padding-left: 10px;
+}
+
+.information h1 {
+    text-align: center;
+
+}
+
+.information p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.PersonalInfor p {
+    font-size: 14px;
+    line-height: 6px;
+    margin-left: 25px;
+}
+
+.PersonalInfor p span {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.692);
+}
+
+/* sit section  */
+
+.content {
+    display: flex;
+}
+
+.sitBar {
+    width: 32%;
+    height: 486px;
+    margin: 10px 0 0 0px;
+    background-color: #909296;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+h2 {
+    margin-left: 10px;
+    color: brown;
+}
+
+.education span {
+    font-size: 12px;
+    color: rgb(66, 65, 65);
+}
+
+.education li {
+    font-size: 14px;
+    line-height: 10px;
+}
+
+.rightBar {
+    width: 70%;
+    height: 465px;
+    margin: 10px 0 0 0px;
+
+}
+
+/* SKILLS */
+
+.skills li {
+    font-size: 11px;
+    line-height: 15px;
+    margin-left: -8px;
+
+}
+
+.skills li span {
+    font-size: 11px;
+    color: rgba(0, 0, 0, 0.63);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.object {
+    font-size: 11px;
+    margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+/* certification  */
+.certification span {
+    font-size: 12px;
+    color: rgb(66, 65, 65);
+}
+
+.certification li {
+    font-size: 12px;
+    line-height: 8px;
+}
